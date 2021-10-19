@@ -1,0 +1,17 @@
+.form-login-page .ant-col-24.ant-form-item-label,
+.login-page div.ant-col.ant-col-24.ant-form-item-label {
+  padding: 0;
+}
+
+/* .form-login-page .ant-form-item {
+  max-height: 90px;
+} */
+
+.form-login-page .login-btn-option .ant-form-item-control-input-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.form-login-page .login-btn-option .ant-form-item-control-input-content > * {
+  min-width: 25%;
+}

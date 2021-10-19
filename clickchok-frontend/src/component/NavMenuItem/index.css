@@ -1,0 +1,15 @@
+.ant-modal-footer:empty {
+  display: none;
+}
+
+.item-relationships-news-list {
+  scrollbar-width: "none";
+}
+
+@media (max-width: 767px) {
+  .ant-modal {
+    max-width: calc(100vw - 16px);
+    max-width: calc(100vw);
+    margin: 8px auto;
+  }
+}

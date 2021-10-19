@@ -1,0 +1,15 @@
+.btn-action {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn-action > * {
+  min-width: 40%;
+}
+
+/* #navbar-section {
+  display: none;
+} */

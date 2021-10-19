@@ -1,0 +1,92 @@
+.user-menu-section .ant-btn {
+  text-align: center;
+}
+.user-menu-section .ant-btn > span {
+  display: block;
+}
+
+.user-menu-section .ant-btn > .anticon + span,
+.ant-btn > span + .anticon,
+.user-menu-section .ant-btn-link {
+  margin: 0;
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  font-size: 16px;
+  color: #9e9e9e;
+  color: #1da1f2;
+}
+.user-menu-section a:hover .ant-btn-link svg {
+  color: #1da1f2;
+  color: black;
+}
+.user-menu-section a {
+  display: block;
+  color: var(--twitterDarkGrayColor);
+  color: #9e9e9e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 0;
+  margin: 9px;
+  width: 100%;
+  max-width: 61px;
+  min-width: 54px;
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  font-size: 16px;
+}
+/* 
+#navbar-section .navbar a:first-child {
+  color: var(--twitterBlueColor);
+  color: #1da1f2;
+} */
+
+/* #navbar-section .navbar a:hover {
+  color: #1da1f2;
+} */
+
+/* #navbar-section .navbar a.active {
+  background-color: #04aa6d;
+  color: white;
+} */
+
+/*
+bkk
+.profile-page .user-menu-section .ant-btn {
+  text-align: center;
+}
+.profile-page .user-menu-section .ant-btn > span {
+  display: block;
+}
+
+.profile-page .user-menu-section .ant-btn > .anticon + span,
+.ant-btn > span + .anticon,
+.profile-page .user-menu-section .ant-btn-link {
+  margin: 0;
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  font-size: 16px;
+  color: #9e9e9e;
+  color: #1da1f2;
+}
+.profile-page .user-menu-section a:hover .ant-btn-link svg {
+  color: #1da1f2;
+  color: black;
+}
+.profile-page .user-menu-section a {
+  display: block;
+  color: var(--twitterDarkGrayColor);
+  color: #9e9e9e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 0;
+  margin: 9px;
+  width: 100%;
+  max-width: 61px;
+  min-width: 54px;
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  font-size: 16px;
+}
+*/

@@ -1,0 +1,6 @@
+.main-menu-line a {
+  color: var(--twitterBlackColor);
+}
+.main-menu-line a:hover {
+  color: var(--primary300Color);
+}

@@ -1,0 +1,66 @@
+#navbar {
+  /* fontSize: 16, fontWeight: 'bold', color: '#9e9e9e', fontFamily: 'Kanit' */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #2196f3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  font-family: var(--fontKanit);
+  font-weight: bold;
+  color: var(--colorGray9);
+}
+
+ul#navbar li {
+  max-width: 88px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  /* transform: translateY(2px); */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ul#navbar li a {
+  display: block;
+  color: var(--colorGray9);
+  font-weight: bold;
+  padding: 8px 16px;
+  text-decoration: none;
+  padding: 2px;
+}
+
+ul#navbar li:last-child a:hover .anticon-more {
+  background-color: var(--twitterExtraLightGrayColor);
+  /* twitterExtraLightGrayColor */
+  border-radius: 50%;
+}
+
+ul#navbar li a:hover {
+  color: var(--colorBlack21);
+}
+
+ul#navbar li {
+  /* border-bottom: 3px solid var(--twitterBlueColor); */
+  border-bottom: 3px solid var(--twitterBlueColor);
+  border-bottom: 0px solid transparent;
+}
+
+ul#navbar li a {
+  border-bottom: 0px solid transparent;
+}
+ul#navbar li a.is-active {
+  border-bottom: 3px solid var(--twitterBlueColor);
+}
+
+ul#navbar li a.is-active {
+  color: var(--colorBlack21);
+}

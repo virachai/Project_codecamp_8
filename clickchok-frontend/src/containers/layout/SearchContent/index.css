@@ -1,0 +1,80 @@
+.header-section .number-checker h2 {
+  color: var(--twitterBlackColor);
+}
+
+.header-section .number-checker a {
+  color: var(--twitterBlackColor);
+}
+
+.header-section .number-checker a:hover {
+  color: var(--twitterBlueColor);
+}
+
+/* .header-section .number-checker > div {
+  margin-left: -10px;
+  margin-right: -10px;
+} */
+.number-search-result,
+.history-line-item,
+.history-search-bar,
+.number-checker-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.number-checker-section h3 {
+  color: var(--lottoItemFontColor);
+}
+
+/* .result-section  */
+.result-section .rect-shape-icon {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  margin-top: 74px;
+}
+
+.result-section .rect-shape-icon > div {
+  /* 80px */
+  margin: 0;
+  margin-top: -46px;
+}
+
+.result-section .car-shape-icon {
+  color: var(--primary300Color);
+}
+
+.result-section .not-found .car-shape-icon {
+  color: gray;
+}
+.result-section .not-found .rect-shape-icon > div {
+  margin: 0;
+  margin-bottom: -46px;
+}
+
+.result-section-center .icon-crown {
+  width: 100%;
+  text-align: center;
+  color: var(--primary300Color);
+  padding: 0;
+  padding-left: auto;
+  padding-right: auto;
+  overflow: hidden;
+  margin-bottom: -12px;
+}
+.result-section .not-found .icon-crown {
+  opacity: 1;
+  color: gray;
+}
+
+.result-section-center .icon-crown > div {
+  margin-bottom: -12px;
+}
+
+.result-section .ant-card-icon {
+  left: unset;
+  right: 4px;
+}

@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+/*
+@import url("https://use.fontawesome.com/releases/v5.10.0/css/v4-shims.css?display=swap");
+https://use.fontawesome.com/releases/v5.10.0/css/v4-shims.css
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css */
+
+body {
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  margin: 0;
+  padding: 0;
+  max-width: 414px;
+  width: 100%;
+  /* width: calc(100vw - 6px); */
+}
+/* XP Form CSS */
+:root {
+  --errorColor: #b00020;
+  --answerOptionColor: #1e3253;
+  --answerOptionRadius: 16px;
+  --buttonRadius: 12px;
+  --buttonPadding: 16px;
+  --fontKanit: Kanit;
+  --neutral900Color: #162a41;
+  --neutral800Color: #384e66;
+  --neutral700Color: #4e657f;
+  --neutral600Color: #677d96;
+  --neutral500Color: #869aaf;
+  --neutral400Color: #a3b3c6;
+  --neutral300Color: #dde5ed;
+  --neutral200Color: #eaeef2;
+  --neutral100Color: #f7f7f8;
+  --blackColor: #000000;
+  --whiteColor: #ffffff;
+  --background1Color: #ffffff;
+  --background2Color: #f7f7f8;
+  --background3Color: #ffffff;
+  --primary500Color: #006ab8;
+  --primary400Color: #0193fe;
+  --primary300Color: #0193fe;
+  --primary200Color: #5fbbff;
+  --primary100Color: #c4e3ff;
+  --secondary1Color: #eb9f0d;
+  --secondary2Color: #ffebb8;
+  --accentRedColor: #e55c3e;
+  --accentGreenColor: #7ecc8f;
+  --accentYellowColor: #e2aa1a;
+  --accentBlueColor: #68dffa;
+  /* Twitter Color */
+  --twitterBlueColor: #1da1f2;
+  --twitterBlackColor: #14171a;
+  --twitterDarkGrayColor: #657786;
+  --twitterLightGrayColor: #aab8c2;
+  --twitterExtraLightGrayColor: #e1e8ed;
+  --twitterExtraExtraLightGrayColor: #f5f8fa;
+
+  --colorGray9: #9e9e9e;
+  --colorBlack21: #212121;
+  /* 212121 */
+
+  --lottoItemSize: 92px;
+  --lottoItemFontColor: #fafafa;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Click Chok CSS */
+html {
+  font-size: 1em;
+}
+
+body {
+  font-size: 1em;
+  font-family: var(--fontKanit);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 415px) {
+  .site-container {
+    flex-direction: row;
+  }
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.ant-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 64px;
+  background: transparent;
+}
+
+.ant-layout {
+  background: transparent;
+}
+
+.slick-dots-bottom {
+  top: 12px;
+}
+
+.lotto-card {
+  /*min-height: 48px;
+  margin-bottom: -1px;
+  padding: 0 24px;*/
+  min-height: var(--lottoItemSize);
+  min-width: var(--lottoItemSize);
+  max-height: var(--lottoItemSize);
+  max-width: var(--lottoItemSize);
+  background: #ff9f1a;
+  background: var(--twitterLightGrayColor);
+  background: gray;
+  /*border: 1px solid #f0f0f0;*/
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--lottoItemFontColor);
+  font-family: Roboto Mono;
+  font-size: 36px;
+}
+
+/* #lotto-list .ant-row > div:nth-child(3n + 1) .lotto-card {
+  background: #ff9f1a;
+}
+
+#lotto-list .ant-row > div:nth-child(3n + 2) .lotto-card {
+  background: #f44336;
+}
+
+#lotto-list .ant-row > div:nth-child(3n + 3) .lotto-card {
+  background: #ff78cb;
+} */
+
+.ant-card-head .ant-card-head-title {
+  padding: 0;
+  line-height: 62px;
+}
+
+.ant-card-icon {
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  left: 4px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 22px;
+  max-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  font-family: "Roboto Mono";
+  padding-top: 3px;
+}
+
+.ant-layout-footer {
+  padding: 0px;
+  /*padding-bottom: 64px;*/
+}
+
+#lotto-list .ant-row {
+  justify-content: center;
+  display: flex;
+}
+
+/*
+  CSS Bg Banner 
+  --primary500Color: #006ab8;
+  --primary400Color: #0193fe;
+  rgb(30, 60, 114), rgb(42, 82, 152)
+*/
+.hero-section {
+  min-height: 92px;
+  max-height: 150px;
+  padding: 8px;
+  color: var(--lottoItemFontColor);
+  font-family: Roboto Mono;
+}
+.hero-section-grad {
+  background-image: linear-gradient(180deg, rgb(42, 82, 152), rgb(30, 60, 114));
+  background-image: linear-gradient(
+    180deg,
+    var(--primary500Color),
+    rgb(30, 60, 114)
+  );
+}
+
+body.modal-open {
+  height: 100vh;
+  overflow-y: hidden;
+}

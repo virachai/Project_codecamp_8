@@ -1,0 +1,118 @@
+#navbar-section {
+  z-index: 10;
+}
+#navbar-section .navbar {
+  overflow: hidden;
+  background-color: var(--twitterExtraLightGrayColor);
+  background-color: #f5f5f5;
+  /* background-color: white; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 414px;
+  padding: 5px 0px;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--twitterExtraLightGrayColor);
+  z-index: 10;
+  width: calc(100vw - 6px);
+}
+
+#navbar-section .navbar .ant-btn {
+  text-align: center;
+}
+#navbar-section .navbar .ant-btn > span {
+  display: block;
+}
+
+#navbar-section .navbar .ant-btn > .anticon + span,
+.ant-btn > span + .anticon,
+#navbar-section .navbar .ant-btn-link {
+  margin: 0;
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  font-size: 16px;
+  color: #9e9e9e;
+}
+#navbar-section .navbar a:hover .ant-btn-link svg {
+  color: #1da1f2;
+}
+#navbar-section .navbar a {
+  float: left;
+  display: block;
+  color: var(--twitterDarkGrayColor);
+  color: #9e9e9e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 0;
+  min-width: 90px;
+  width: 100%;
+  max-width: 25%;
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  font-size: 16px;
+}
+/* 
+#navbar-section .navbar a:first-child {
+  color: var(--twitterBlueColor);
+  color: #1da1f2;
+} */
+
+/* #navbar-section .navbar a:hover {
+  color: #1da1f2;
+} */
+
+/* #navbar-section .navbar a.active {
+  background-color: #04aa6d;
+  color: white;
+} */
+
+#navbar-section .navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #navbar-section .navbar a:not(:first-child) {
+    display: none;
+  }
+  #navbar-section .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #navbar-section .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #navbar-section .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #navbar-section .navbar a:not(:first-child) {
+    display: block;
+  }
+}
+
+#navbar-section .navbar a.selected button {
+  background-color: transparent;
+  /* background-color: var(--twitterBlueColor); */
+  color: var(--twitterBlueColor);
+}
+/* a.active {
+  background-color: transparent;
+  background-color: burlywood;
+  color: var(--twitterBlueColor);
+} */
+
+.main-menu-modal .ant-modal-title {
+  text-align: center;
+}

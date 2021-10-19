@@ -1,0 +1,3 @@
+.news-list .ant-row > div:not(:first-of-type) .PostStandard {
+  border-top: 3px solid var(--neutral500Color);
+}

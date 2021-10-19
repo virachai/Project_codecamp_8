@@ -1,0 +1,32 @@
+{
+  "name": "json-server-api",
+  "version": "1.0.0",
+  "description": "Simple Fake API",
+  "main": "main.js",
+  "scripts": {
+    "start": "json-server --watch ./database.json",
+    "start-auth": "node server.js"
+  },
+  "author": "ME:)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.21",
+    "mariadb": "^2.5.4",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "sequelize": "^6.6.5",
+    "uniqid": "^5.3.0",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.11"
+  }
+}

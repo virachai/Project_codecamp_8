@@ -1,0 +1,28 @@
+.logo-icon-item {
+  padding-top: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  min-height: 50px;
+  width: fit-content;
+  margin: 0;
+  color: var(--twitterBlueColor);
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon-item h2 {
+  font-size: 26px;
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  color: var(--twitterBlueColor);
+  margin: 0;
+  padding-left: 10px;
+}
+
+.logo-icon-item img {
+  /*
+  style={{ width: "100%", maxWidth: 320 }}
+  */
+  width: 100%;
+  max-width: 320px;
+}
